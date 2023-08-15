@@ -100,18 +100,101 @@
 
 // Challange Fundamental 2
 
-const weightMark = 95;
-const heightMark = 1.88;
-const weightJohn = 85;
-const heightJohn = 1.76;
+// const weightMark = 95;
+// const heightMark = 1.88;
+// const weightJohn = 85;
+// const heightJohn = 1.76;
 
-const BMIMark = weightMark / heightMark ** 2;
-const BMIJohn = weightJohn / (heightJohn * 2);
-console.log(BMIMark, BMIJohn);
+// const BMIMark = weightMark / heightMark ** 2;
+// const BMIJohn = weightJohn / (heightJohn * 2);
+// console.log(BMIMark, BMIJohn);
 
-if(BMIMark > BMIJohn)
-{
-    console.log(`Mark's BMI is (${BMIMark}) higher than john's (${BMIJohn})!`);
-}else{
-    console.log(`John's BMI (${BMIJohn}) is higher than mark's (${BMIMark})!`);
-}
+// if(BMIMark > BMIJohn)
+// {
+//     console.log(`Mark's BMI is (${BMIMark}) higher than john's (${BMIJohn})!`);
+// }else{
+//     console.log(`John's BMI (${BMIJohn}) is higher than mark's (${BMIMark})!`);
+// }
+
+// type conversion
+// const inputYear = '1997';
+// console.log(Number(inputYear), inputYear);
+// console.log(Number(inputYear) + 10);
+
+// type coercion
+
+// let n = '1' + 1;
+// n = n - 1;
+// console.log(n);
+
+// const age = '18';
+// if(age === 18 ) console.log('You just became an adult (strict)');
+// if(age == 18 ) console.log('You just became an adult (loose)');
+
+// const favourite = prompt("What's your favourite number?");
+// console.log(favourite);
+// console.log(typeof favourite);
+
+// if(favourite !== 23) console.log("Why not 23 ?");
+
+// const hasDriversLicense = true;
+// const hasGoodVision = true;
+
+// console.log(hasDriversLicense && hasGoodVision);
+
+// const scoreDolphins = (96 + 108 + 89) / 3;
+// const scoreKoalas = (88 + 91 + 110) / 3;
+// console.log(scoreDolphins, scoreKoalas);
+
+// if (scoreDolphins > scoreKoalas) {
+//     console.log('Dolphins win the tropyh 🏆');
+
+// } else if (scoreDolphins < scoreKoalas) {
+//     console.log('Dolphins win the tropyh 🏆');
+// }else if (scoreDolphins === scoreKoalas)
+// {
+//     console.log('Both the wins 🏆');
+// }
+
+
+// const day = 'tuesday';
+
+// switch (day) {
+//     case 'monday':
+//         console.log('Plan course structure');
+//         console.log('Go to coding meetup');
+//         break;
+//     case 'tuesday':
+//         console.log('Preapere theory videos');
+//         break;
+//     case 'wednesday':
+//     case 'thursday':
+//         console.log('Write code examples');
+//         break;
+//     case 'friday':
+//         console.log('Record videos');
+//         break;
+//     case 'saturday':
+//     case 'sunday':
+//         console.log('Enjoy the weekend');
+//         break;
+//     default:
+//         console.log('Not a valid day');
+//         break;
+// }
+
+// const age = 23;
+
+// const drink = age >= 18 ? 'wine 🍷' : ' water 🍼';
+
+// console.log(drink);
+
+// let drink2;
+// if(age >= 18)
+// {
+//     drink2 = 'wine 🍷' 
+// }else{
+//     drink2 = ' water 🍼';
+// }
+
+// console.log(drink2);
