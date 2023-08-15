@@ -39,3 +39,25 @@
 // const averageAge = ageAndrew + ageAra / 2;
 // console.log(ageAndrew, ageAra, averageAge);
 
+// Challange Fundamental 1
+
+// const massMark = 78;
+// const heightMark = 1.69;
+// const massJohn = 92;
+// const heightJohn = 1.95;
+
+// const BMIMark = massMark / heightMark ** 2;
+// const BMIJohn = massJohn / (heightJohn * heightJohn);
+
+// console.log(BMIMark, BMIJohn)
+
+// const weightMark = 95;
+// const heightMark = 1.88;
+// const weightJohn = 85;
+// const heightJohn = 1.76;
+
+// const BMIMark = weightMark / heightMark ** 2;
+// const BMIJohn = weightJohn / (heightJohn * 2);
+// console.log(BMIMark, BMIJohn);
+
+
